@@ -1,0 +1,40 @@
+h1 {
+    font-family: 'Sanchez', serif;
+    font-size: 2rem;
+    color: aqua;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: $h1BgColor;
+}
+
+h2 {
+    font-size: 2rem;
+    color: $titleColor;
+    width: 20rem;
+    font-family: 'Sanchez', serif;
+    text-align: center;
+    background-color: $h2BgColor;
+    border-radius: 80%;
+    margin: auto; 
+}
+
+h4 {
+    font-size: 20px;
+    color: $titleColor;
+    width: 150px;
+    font-family: 'Sanchez', serif;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: $h4BgColor;
+    border-radius: 80%;
+    margin: auto;   
+    margin-bottom: 15px; 
+}
+
+h6 {
+    font-family: 'Kreon', serif;
+    color: aqua;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+}
