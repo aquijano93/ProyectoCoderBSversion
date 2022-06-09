@@ -9,11 +9,12 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: $titleColor;
     width: 20rem;
     font-family: 'Sanchez', serif;
     text-align: center;
+    justify-content: center;
     background-color: $h2BgColor;
     border-radius: 80%;
     margin: auto; 
