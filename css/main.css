@@ -22,33 +22,34 @@ nav ul {
   background-color: #00ee9f; }
 
 h1 {
-  font-family: 'Sanchez', serif;
+  font-family: "Sanchez", serif;
   font-size: 2rem;
+  width: 100%;
   color: aqua;
-  position: relative;
-  text-align: center;
-  padding-bottom: 20px;
-  background-color: #111110; }
-
-h2 {
-  font-size: 1.5rem;
-  color: #73ee73;
-  width: 20rem;
-  font-family: 'Sanchez', serif;
+  background-color: #111110;
   text-align: center;
   justify-content: center;
+  padding-bottom: 20px; }
+
+h2 {
+  font-family: "Sanchez", serif;
+  font-size: 1.5rem;
+  width: 20rem;
+  color: #73ee73;
   background-color: #00668f;
+  text-align: center;
+  justify-content: center;
   border-radius: 80%;
   margin: auto; }
 
 h4 {
+  font-family: "Sanchez", serif;
   font-size: 20px;
-  color: #73ee73;
   width: 150px;
-  font-family: 'Sanchez', serif;
-  text-align: center;
-  margin-bottom: 10px;
+  color: #73ee73;
   background-color: #0eaceb;
+  text-align: center;
+  justify-content: center;
   border-radius: 80%;
   margin: auto;
   margin-bottom: 15px; }
@@ -85,6 +86,24 @@ h6 {
     border-radius: 4%;
     text-align: justify;
     justify-content: center; }
+
+.card1, .card2, .card3 {
+  display: block;
+  font-family: "Kreon", serif;
+  color: #73ee73;
+  background-color: #111110;
+  border-radius: 5%;
+  align-self: center;
+  justify-content: center;
+  padding: 1.5rem; }
+
+.card1 li, .card2 li, .card3 li {
+  text-align: center; }
+  .card1 li a, .card2 li a, .card3 li a {
+    color: #73ee73; }
+  .card1 li:hover, .card2 li:hover, .card3 li:hover {
+    background-color: #0eaceb;
+    border-radius: 50%; }
 
 .tat1 {
   width: 100%;
@@ -138,6 +157,11 @@ footer div p {
   font-size: 18px;
   color: #73ee73;
   text-align: center; }
+
+@media only screen and (max-width: 768px) {
+  .two {
+    height: 500px;
+    overflow: auto; } }
 
 .logo {
   width: 100%;

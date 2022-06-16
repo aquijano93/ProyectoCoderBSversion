@@ -1,0 +1,35 @@
+@import "variables";
+
+%cards {
+    display: block;
+    font-family: $fontStyle2;
+    color: $titleColor;
+    background-color: $h1BgColor;
+    border-radius: 5%;
+    align-self: center;
+    justify-content: center;
+    padding: 1.5rem;
+
+}
+
+.card1 {
+    @extend %cards;
+    li {
+        text-align: center;
+        a {
+            color: $titleColor;
+        }
+        &:hover {
+            background-color: $h4BgColor;
+            border-radius: 50%;
+        }
+    }
+}
+
+.card2 {
+    @extend .card1;
+}
+
+.card3 {
+    @extend .card1;
+}

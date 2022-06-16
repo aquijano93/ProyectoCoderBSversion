@@ -1,36 +1,31 @@
-h1 {
-    font-family: 'Sanchez', serif;
-    font-size: 2rem;
-    color: aqua;
-    position: relative;
+@import "variables";
+
+@mixin titulos ($fuente, $fSize, $ancho, $color, $bgColor) {
+    font-family: $fuente;
+    font-size: $fSize;
+    width: $ancho;
+    color: $color;
+    background-color: $bgColor;
     text-align: center;
+    justify-content: center;
+}
+h1 {
+    @include titulos ($fontStyle1, 2rem, 100%, aqua, $h1BgColor);
     padding-bottom: 20px;
-    background-color: $h1BgColor;
 }
 
 h2 {
-    font-size: 1.5rem;
-    color: $titleColor;
-    width: 20rem;
-    font-family: 'Sanchez', serif;
-    text-align: center;
-    justify-content: center;
-    background-color: $h2BgColor;
+    @include titulos ($fontStyle1, 1.5rem, 20rem, $titleColor, $h2BgColor);
     border-radius: 80%;
-    margin: auto; 
+    margin: auto;
 }
 
 h4 {
-    font-size: 20px;
-    color: $titleColor;
-    width: 150px;
-    font-family: 'Sanchez', serif;
-    text-align: center;
-    margin-bottom: 10px;
-    background-color: $h4BgColor;
+    @include titulos ($fontStyle1, 20px, 150px, $titleColor, $h4BgColor);
     border-radius: 80%;
     margin: auto;   
     margin-bottom: 15px; 
+
 }
 
 h6 {
