@@ -1,15 +1,40 @@
+//aquí comienza el import scss de Bootstrap.
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//aquí finaliza el import scss de Bootstrap.
+
+//variables
 @import "variables";
+
+//navbar.
 @import "nav";
+
+//titulos.
 @import "titles";
+
+//sección "two".
 @import "sectionTwo";
+
+//cards.
 @import "cards";
+
+//sección tatuadores.
 @import "tatSection";
+
+//iframes.
 @import "iframes";
+
+//formularios.
 @import "formStyles";
+
+//footer.
 @import "footer";
+
+//media queries.
 @import "mediaQueries";
 
-
+//logo estilo general.
 .logo {
     width: 100%;
     max-height: 400px;
