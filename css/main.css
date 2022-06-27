@@ -8346,7 +8346,7 @@ textarea.form-control-lg {
 nav ul {
   background-color: #4e26ff;
   width: 100%;
-  border-radius: 50%;
+  border-radius: 40%;
   padding: 0.5rem;
   justify-content: center;
   justify-content: space-around; }
